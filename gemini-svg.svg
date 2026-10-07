@@ -1,0 +1,88 @@
+<svg width="450" height="850" viewBox="0 0 450 850" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Nền ngoài (Mô phỏng màu nền tối của ứng dụng bên dưới) -->
+  <rect width="450" height="850" fill="#F3F4F6"/>
+  
+  <!-- Main Card Container -->
+  <rect x="25" y="25" width="400" height="800" rx="16" fill="#FFFFFF" filter="drop-shadow(0px 4px 12px rgba(0,0,0,0.1))"/>
+
+  <!-- ========================================== -->
+  <!-- HEADER -->
+  <!-- ========================================== -->
+  <path d="M25 41 C25 32.163 32.163 25 41 25 L409 25 C417.837 25 425 32.163 425 41 L425 85 L25 85 Z" fill="#2563EB"/>
+  <text fill="#FFFFFF" xml:space="preserve" font-family="Arial, sans-serif" font-size="20" font-weight="bold" x="50" y="62">Đặt phòng</text>
+
+  <!-- ========================================== -->
+  <!-- FORM FIELDS -->
+  <!-- ========================================== -->
+  
+  <!-- Chi nhánh -->
+  <text fill="#4B5563" xml:space="preserve" font-family="Arial, sans-serif" font-size="14" font-weight="bold" x="50" y="125">Chi nhánh *</text>
+  <rect x="50" y="135" width="350" height="42" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text fill="#374151" xml:space="preserve" font-family="Arial, sans-serif" font-size="14" x="65" y="162">Cơ sở Cầu Giấy</text>
+  <path d="M375 152 L380 157 L385 152" stroke="#6B7280" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Thời gian -->
+  <text fill="#4B5563" xml:space="preserve" font-family="Arial, sans-serif" font-size="14" font-weight="bold" x="50" y="210">Thời gian</text>
+  <!-- Ô Ngày -->
+  <rect x="50" y="220" width="110" height="42" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text fill="#6B7280" xml:space="preserve" font-family="Arial, sans-serif" font-size="14" x="62" y="247">12/11/2026</text>
+  <!-- Ô Giờ -->
+  <rect x="170" y="220" width="110" height="42" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text fill="#6B7280" xml:space="preserve" font-family="Arial, sans-serif" font-size="14" x="182" y="247">09:00</text>
+  <!-- Ô Thời lượng -->
+  <rect x="290" y="220" width="110" height="42" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text fill="#6B7280" xml:space="preserve" font-family="Arial, sans-serif" font-size="14" x="302" y="247">2 giờ</text>
+
+  <!-- Phòng trống -->
+  <text fill="#4B5563" xml:space="preserve" font-family="Arial, sans-serif" font-size="14" font-weight="bold" x="50" y="295">Phòng trống</text>
+  
+  <!-- Option 1: Selected -->
+  <rect x="50" y="305" width="350" height="65" rx="6" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
+  <circle cx="75" cy="328" r="8" fill="#3B82F6"/>
+  <text fill="#111827" xml:space="preserve" font-family="Arial, sans-serif" font-size="14" font-weight="bold" x="95" y="333">P.201 - 8 chỗ</text>
+  <text fill="#6B7280" xml:space="preserve" font-family="Arial, sans-serif" font-size="12" x="95" y="355">TV, Bảng | 180.000đ/giờ</text>
+
+  <!-- Option 2: Unselected -->
+  <rect x="50" y="380" width="350" height="65" rx="6" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <circle cx="75" cy="403" r="7" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="2"/>
+  <text fill="#374151" xml:space="preserve" font-family="Arial, sans-serif" font-size="14" font-weight="bold" x="95" y="408">P.305 - 12 chỗ</text>
+  <text fill="#9CA3AF" xml:space="preserve" font-family="Arial, sans-serif" font-size="12" x="95" y="430">Máy chiếu | 250.000đ/giờ</text>
+
+  <!-- Thông tin thêm -->
+  <text fill="#4B5563" xml:space="preserve" font-family="Arial, sans-serif" font-size="14" font-weight="bold" x="50" y="485">Thông tin thêm</text>
+  <rect x="50" y="495" width="350" height="42" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text fill="#9CA3AF" xml:space="preserve" font-family="Arial, sans-serif" font-size="14" x="65" y="522">Nhập số...</text>
+
+  <!-- Checkboxes -->
+  <!-- Checkbox 1 -->
+  <rect x="50" y="560" width="16" height="16" rx="2" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="2"/>
+  <text fill="#4B5563" xml:space="preserve" font-family="Arial, sans-serif" font-size="13" x="75" y="574">Máy chiếu</text>
+  <!-- Checkbox 2 -->
+  <rect x="165" y="560" width="16" height="16" rx="2" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="2"/>
+  <text fill="#4B5563" xml:space="preserve" font-family="Arial, sans-serif" font-size="13" x="190" y="574">Bảng viết</text>
+  <!-- Checkbox 3 -->
+  <rect x="275" y="560" width="16" height="16" rx="2" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="2"/>
+  <text fill="#4B5563" xml:space="preserve" font-family="Arial, sans-serif" font-size="13" x="300" y="574">TV</text>
+
+  <!-- Mã (Promo code) -->
+  <text fill="#4B5563" xml:space="preserve" font-family="Arial, sans-serif" font-size="14" font-weight="bold" x="50" y="620">Mã</text>
+  <rect x="50" y="630" width="230" height="42" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text fill="#9CA3AF" xml:space="preserve" font-family="Arial, sans-serif" font-size="14" x="65" y="657">Nhập tại đây</text>
+  
+  <rect x="290" y="630" width="110" height="42" rx="6" fill="#E5E7EB"/>
+  <text fill="#9CA3AF" xml:space="preserve" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" x="345" y="657">OK</text>
+
+  <!-- ========================================== -->
+  <!-- FOOTER BUTTONS -->
+  <!-- ========================================== -->
+  <line x1="25" y1="740" x2="425" y2="740" stroke="#F3F4F6" stroke-width="2"/>
+  
+  <!-- Nút Hủy -->
+  <rect x="50" y="765" width="165" height="46" rx="6" fill="#F97316"/>
+  <text fill="#FFFFFF" xml:space="preserve" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" x="132" y="794">Hủy</text>
+  
+  <!-- Nút Tiếp theo -->
+  <rect x="235" y="765" width="165" height="46" rx="6" fill="#E5E7EB"/>
+  <text fill="#9CA3AF" xml:space="preserve" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" x="317" y="794">Tiếp theo</text>
+
+</svg>
